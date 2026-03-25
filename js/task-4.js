@@ -15,9 +15,9 @@ function handleSubmit(event) {
         fields[field.name] = field.value.trim();
       }
     }
+    console.log(fields);
+    form.reset();
   }
-  console.log(fields);
-  form.reset();
 }
 
 loginForm.addEventListener('submit', handleSubmit);

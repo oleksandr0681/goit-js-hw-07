@@ -174,7 +174,7 @@ button:focus {
 
 .widget p {
   margin: 0 0 16px 0;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
